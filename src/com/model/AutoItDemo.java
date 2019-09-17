@@ -16,6 +16,7 @@ driver.get("file:///E:/autoitfile1.html");
 driver.manage().window().maximize();
 driver.findElement(By.xpath("//input[@type='file']")).click();
 Runtime.getRuntime().exec("E:\\Autoitfileselenium.exe");
+	System.out.pritln("udated");
 
 }}
 
